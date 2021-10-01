@@ -12,7 +12,6 @@ public class empDailyWage {
 		else
 			{
 			System.out.println( "Employee is Absent" );
-				fullDayHour= 0;
 			}
 		int empWagePerHour= 20;
 		double dailyEmpWage=(empWagePerHour*fullDayHour);
