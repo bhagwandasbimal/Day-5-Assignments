@@ -11,6 +11,6 @@ public class Euclidean {
         System.out.println("Enter Y:");
         y=scanner.nextInt();
         double distance=  Math.sqrt((x*x)+(y*y));
-        System.out.println("Euclidean distance from the point (X,Y) to the origin (0,0) is : " + distance);
+        System.out.println("Euclidean distance from the point ("+ x +","+ y +") to the origin (0,0) is : " + distance);
     }
 }
